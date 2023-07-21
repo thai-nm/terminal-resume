@@ -1,20 +1,19 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://raw.githubusercontent.com/thai-nm/thai-nm/main/README.md",
+  "title": "Thai Nguyen",
+  "name": "Thai Nguyen",
+  "ascii": "thainm",
+  "resume_url": "https://github.com/thai-nm",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "https://github.com/thai-nm",
+    "linkedin": "https://www.linkedin.com/in/thainm-uet/"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "thainm.uet@gmail.com",
+  "ps1_hostname": "mate",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/thai-nm/terminal-resume",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/thainmuet"
   },
   "colors": {
     "light": {
