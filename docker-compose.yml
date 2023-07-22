@@ -1,14 +1,26 @@
 version: "3.7"
 services:
   liveterm:
+    container_name: terminal-resume
     build:
       context: .
       dockerfile: Dockerfile
       target: base
-    expose:
-      - '3000'
     ports:
-      - '3000:3000'
+      - 3000
     volumes:
       - ./src/:/home/node/app/src
     command: npm run dev
+
+  proxy:
+    container_name: nginx-proxy
+    build:
+      context: .
+      dockerfile: nginx-proxy-dockerfile
+      # target: base
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - /etc/letsencrypt/live/thainm.site/fullchain.pem:/tmp/thainm.site/fullchain.pem
+      - /etc/letsencrypt/live/thainm.site/privkey.pem:/tmp/thainm.site/privkey.pem
